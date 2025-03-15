@@ -1,5 +1,5 @@
 //Error is class in Node.js
-class ApIError extends Error{
+class ApiError extends Error{
     constructor(
         statusCode,
         message="Something went wrong",
@@ -21,4 +21,4 @@ class ApIError extends Error{
     }
 }
 
-export { ApIError }
+export { ApiError }
